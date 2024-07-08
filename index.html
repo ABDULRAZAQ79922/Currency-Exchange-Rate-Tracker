@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Rate Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="my-container">
+        <h1 class="my-title">Currency Exchange Rate Tracker</h1>
+        <div class="my-clock" id="my-clock"></div>
+        <div class="my-selector">
+            <label for="my-base-currency">Base Currency:</label>
+            <select id="my-base-currency" class="my-dropdown">
+            </select>
+        </div>
+        <div class="my-converter">
+            <input type="number" id="my-amount" placeholder="Enter amount" class="my-input">
+            <button id="my-convert-button" class="my-button">Convert</button>
+        </div>
+        <div class="my-exchange-rate">
+            <h2 class="my-rate-title">Exchange Rate:</h2>
+            <p class="my-rate" id="my-exchange-rate">Select a currency</p>
+        </div>
+        <div class="my-conversion-result" id="my-conversion-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
